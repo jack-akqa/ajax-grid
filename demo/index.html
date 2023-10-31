@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Serialize demo</title>
+		<style>
+			body {
+				font-family: 'Avenir', Helvetica, Arial, sans-serif;
+				color: #2c3e50;
+				margin-top: 60px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Demo:</h1>
+		<i>Due to a lack of server for that demo there will be no error injection.</i><br>
+		<i>Open the Dev tools to see the ajax request and the attached <strong>form data</strong>.</i>
+
+		<form id="demo" action="/demo/" method="post" enctype="application/x-www-form-urlencoded" novalidate="novalidate">
+			<h4 class="my--5x">Get in touch</h4>
+			<fieldset>
+				<div id="demo_FullName_Holder">
+					<div class="form__input">
+						<label for="demo_FullName">Full Name</label>
+						<input type="text" name="FullName" id="demo_FullName" required="required" aria-required="true" class="text">
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div id="demo_LastName_Holder">
+					<div class="form__input">
+						<label for="demo_LastName">Last Name</label>
+						<input type="text" name="LastName" id="demo_LastName" required="required" aria-required="true" class="text">
+					</div>
+				</div>
+			</fieldset>
+			<button type="submit" id="demo_action_submit" value="submit">
+				<span>submit</span>
+			</button>
+		</form>
+
+	</body>
+</html>

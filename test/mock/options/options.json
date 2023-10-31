@@ -1,0 +1,9 @@
+{
+  "button": {
+    "labelSubmit": "Processing...",
+    "labelReSubmit": "Oops, try again"
+  },
+  "form": {
+    "class": "submitting"
+  }
+}
